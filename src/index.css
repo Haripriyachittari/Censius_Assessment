@@ -11,6 +11,7 @@
         --color-bg-body: ##F3F4F6;
             --color-bg-card: #DBEAFE;
         --color-text-primary: #000000;
+        --color-text-btn: #2563EB;
         
      
 }
@@ -20,6 +21,8 @@
         --color-bg-body:##F3F4F6;
         --color-bg-card:#EFF6FF;
         --color-text-primary: #2d3748;
+        --color-text-btn: #2563EB;
+        
         
         
 }
@@ -31,6 +34,7 @@
     --color-bg-body: #1F2937;
     --color-bg-card: #1E3A8A;
     --color-text-primary: #ffff;
+    --color-text-btn: #ffff;
     
  
 }

@@ -14,6 +14,7 @@ module.exports = {
       },
       textColor: {
         primary: "var(--color-text-primary)",
+        button: "var(--color-text-btn)",
       },
     },
   },

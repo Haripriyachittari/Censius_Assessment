@@ -70,7 +70,7 @@ const Sidebar = (props) => {
       <div className="">
         {isDark ? (
           <button
-            className="bg-secondary text-primary font-bold text-center gap-2   rounded md:mx-auto p-2 md:w-[100%] flex items-center"
+            className="bg-secondary text-button font-bold text-center gap-2   rounded md:mx-auto p-2 md:w-[100%] flex items-center"
             onClick={handleLightTheme}
           >
             <CiDark className="font-extrabold" size={24} />
@@ -78,7 +78,7 @@ const Sidebar = (props) => {
           </button>
         ) : (
           <button
-            className="bg-secondary text-primary   font-bold text-center gap-2   rounded md:mx-auto p-2 md:w-[100%] flex items-center"
+            className="bg-secondary text-button font-bold text-center gap-2   rounded md:mx-auto p-2 md:w-[100%] flex items-center"
             onClick={handleDarkTheme}
           >
             <CiBrightnessUp className="font-extrabold" size={24} />

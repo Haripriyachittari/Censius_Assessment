@@ -24,7 +24,7 @@ const Header = (props) => {
         {header}
       </h1>
 
-      <div className="border border-slate-400  flex justify-between px-3 rounded-md   ">
+      <div className="border border-slate-400  flex justify-between px-3 rounded-md  ">
         <input
           placeholder="Search..."
           className="p-1 w-[50%] md:w-[256px] border-none focus:outline-0 bg-primary text-primary"
