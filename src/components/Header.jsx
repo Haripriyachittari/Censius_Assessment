@@ -4,12 +4,12 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { HeaderContext } from "../App";
 
 const Header = (props) => {
-  const { open, handleToggle, searchText, setSearchText } = props;
+  const { handleToggle, searchText, setSearchText } = props;
 
   const handleNav = () => {
     handleToggle();
   };
-  console.log(open);
+
   const { header } = useContext(HeaderContext);
   return (
     <div

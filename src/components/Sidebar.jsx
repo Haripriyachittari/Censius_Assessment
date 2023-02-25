@@ -20,8 +20,6 @@ const Sidebar = (props) => {
     setIsDark(!isDark);
   };
 
-  console.log(open);
-  // fixed bottom-0 right-0 left-0
   return (
     <div
       className={

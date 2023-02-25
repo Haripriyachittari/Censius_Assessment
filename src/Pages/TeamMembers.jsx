@@ -17,15 +17,18 @@ const TeamMembers = (props) => {
           .filter((user) =>
             user.name.toLowerCase().includes(searchText.toLowerCase())
           )
-          .map((user) => {
+          .map((user, index) => {
             return (
-              <div className="flex flex-col justify-center items-center shadow bg-card  p-4 rounded-lg w-[172px] h-[204px] hover:scale-105 duration-300 cursor-pointer">
+              <div
+                key={index}
+                className="flex flex-col justify-center items-center shadow bg-card  p-4 rounded-lg w-[172px] h-[204px] hover:scale-105 duration-300 cursor-pointer"
+              >
                 <div className="w-20 h-20 rounded-full flex justify-center items-center bg-[#2563EB]">
                   <h1 className="text-3xl text-white">{user.initials}</h1>
                 </div>
                 <div className="mt-4 text-center">
-                  <h1>{user.name}</h1>
-                  <h2>{user.position}</h2>
+                  <h1 className="font-bold">{user.name}</h1>
+                  <p>{user.position}</p>
                 </div>
               </div>
             );

@@ -3,6 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root {
     @apply bg-body text-primary;
         --color-bg-primary: #F9FAFB;
@@ -10,8 +11,7 @@
         --color-bg-body: ##F3F4F6;
             --color-bg-card: #DBEAFE;
         --color-text-primary: #000000;
-        --color-text-secondary: #4a5568;
-        --color-text-accent: #2b6cb0;
+        
      
 }
 .light{
@@ -20,8 +20,7 @@
         --color-bg-body:##F3F4F6;
         --color-bg-card:#EFF6FF;
         --color-text-primary: #2d3748;
-        --color-text-secondary: #4a5568;
-        --color-text-accent: #2b6cb0;
+        
         
 }
 
@@ -32,7 +31,6 @@
     --color-bg-body: #1F2937;
     --color-bg-card: #1E3A8A;
     --color-text-primary: #ffff;
-    --color-text-secondary: #e2e8f0;
-    --color-text-accent: #81e6d9;
+    
  
 }

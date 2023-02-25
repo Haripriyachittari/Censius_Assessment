@@ -13,9 +13,7 @@ module.exports = {
         card: "var(--color-bg-card)",
       },
       textColor: {
-        accent: "var(--color-text-accent)",
         primary: "var(--color-text-primary)",
-        secondary: "var(--color-text-secondary)",
       },
     },
   },
